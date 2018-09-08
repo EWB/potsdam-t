@@ -1,0 +1,9 @@
+<?php
+// $Id: customsite.module
+
+function custom_init() {
+  $path = drupal_get_path('module', 'custom'); 
+  $css_file = $path .'/custom.css';
+  drupal_add_css($css_file, 'module');
+}
+

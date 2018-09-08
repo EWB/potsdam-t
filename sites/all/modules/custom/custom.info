@@ -1,0 +1,8 @@
+; $Id$
+name = Custom Module
+description = A Custom Module.
+core = 6.x
+
+package = "Custom"
+
+version = "6.1"
